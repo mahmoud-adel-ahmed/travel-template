@@ -21,3 +21,10 @@ control_btns.forEach((control_btn) => {
     video.src = src;
   });
 });
+
+// AOS
+
+AOS.init({
+  duration: 1000,
+  delay: 200,
+});
